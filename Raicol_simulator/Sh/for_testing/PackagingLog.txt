@@ -1,0 +1,9 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\noab\Desktop\Raicol_simulator\Sh\for_redistribution" />
+  <mkdir dir="C:\Users\noab\Desktop\Raicol_simulator\Sh\for_testing" />
+</ant>
+mcc -C -o Sh -W WinMain:Sh -T link:exe -d C:\Users\noab\Desktop\Raicol_simulator\Sh\for_testing -v C:\Users\noab\Desktop\Raicol_simulator\combinedSHGSimulationGUI4.m -a C:\Users\noab\Desktop\Raicol_simulator\n_ktp_5g.m -a C:\Users\noab\Desktop\Raicol_simulator\N_ppln_1_new.m -a C:\Users\noab\Desktop\Raicol_simulator\n_ppslt_z.m -a C:\Users\noab\Desktop\Raicol_simulator\PhasM_lambda.m -a C:\Users\noab\Desktop\Raicol_simulator\PhasM_Temp.m 
+Test checkout of feature 'Compiler' failed.
+
+mcc failed.
