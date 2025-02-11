@@ -1,0 +1,9 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\noab\Desktop\Raicol_simulator\combinedSHGSimulationGUI5\for_redistribution" />
+  <mkdir dir="C:\Users\noab\Desktop\Raicol_simulator\combinedSHGSimulationGUI5\for_testing" />
+</ant>
+mcc -C -o combinedSHGSimulationGUI5 -W WinMain:combinedSHGSimulationGUI5 -T link:exe -d C:\Users\noab\Desktop\Raicol_simulator\combinedSHGSimulationGUI5\for_testing -v C:\Users\noab\Desktop\Raicol_simulator\combinedSHGSimulationGUI5.m 
+Test checkout of feature 'Compiler' failed.
+
+mcc failed.
